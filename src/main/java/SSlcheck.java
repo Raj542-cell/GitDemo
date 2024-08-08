@@ -16,5 +16,7 @@ public class SSlcheck {
         WebDriver driver=new ChromeDriver(options);
         driver.get("https://expired.badssl.com/");
         System.out.println(driver.getTitle());
+        System.out.println("hello world");
+        System.out.println("Hi");
     }
 }
