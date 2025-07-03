@@ -2,6 +2,7 @@ public class string {
     public static void main(String[] args) {
 
         String s = "Raj learning selenium";
+        String a = "selenium";
         String[] splittedstring = s.split("learning");
         System.out.println(splittedstring[0]);
         System.out.println(splittedstring[1]);
